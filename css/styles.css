@@ -126,3 +126,9 @@ body{
     display: none;
   }
   
+  .vision{
+    background-color:blue;
+    border-radius: 25px;
+    margin-top: 10px;
+  }
+  
