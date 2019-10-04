@@ -1,5 +1,8 @@
-.container img {
-    background-size: cover;
-    background-repeat: no-repeat;
-
-}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 20vh;
+    background-color: rgb(119, 137, 153);
+    border-radius: 15px;
+  }
