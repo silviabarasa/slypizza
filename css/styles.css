@@ -134,4 +134,28 @@ body{
     color: white;
     text-align: center;
   }
+  #address{
+    display: none;
+  }
+  
+  #checkout{
+    margin-top: 10px;
+    background-color: blue;
+    border-radius: 25px;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 5px;
+  }
+  
+  textarea{
+    border-radius: 25px;
+    background-color: lightslategray;
+    color: white;
+    padding-left: 30px;
+    padding-top: 10px;
+  }
+  
+  #checkout-button{
+  background-color:  lightslategray;
+  }
   
