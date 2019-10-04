@@ -9,7 +9,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 20vh;
-    background-color: rgb(119, 137, 153);
+    background-color:blue;
     border-radius: 15px;
   }
   .title h1{
@@ -52,4 +52,32 @@ nav{
     height: 3px;
     background-color: white;
     margin: 5px;
+  }
+  #lane{
+    background-color: whitesmoke;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: black;
+    border-radius: 25px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+  }
+  
+  .history{
+    background-color: #5F5757;
+    border-radius: 25px;
+    margin-top: 10px;
+    text-align:center;
+  }
+body{
+    background-image: url("../images/pizzaimage.jpeg");
+    background-size: cover;
+    background-repeat:no-repeat;
+  }
+  #menu-title{
+    width: 100%;
+    align-items: center;
+    display: block;
+    margin-top: 10px;
   }
