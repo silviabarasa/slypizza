@@ -210,5 +210,43 @@ body{
       font-weight: bold;
     }
   }
+  @media screen and (max-width:768px){
+    body{
+    overflow-x: hidden;
+    }
   
+    .title h1{
+    font-size: 24px;
+    }
+  
+    .logo{
+    display:none;
+    }
+  
+    .navi{
+    position:absolute;
+    right: 0px;
+    height: 70vh;
+    top: 20vh;
+    background-color: #3E7256;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 29%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+    border-radius: 25px;
+    }
+  
+    .navi li{
+    opacity: 0;
+    }
+  
+    .burger{
+    display: block;
+    }
+  
+    .navi-active{
+    transform: translateX(0%);
+    }
   
