@@ -116,4 +116,13 @@ body{
     color: white;
     padding-top: 10px;
   }
+  #toppings{
+    background-color:teal;
+    border-radius: 25px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    padding-top: 10px;
+    display: none;
+  }
   
