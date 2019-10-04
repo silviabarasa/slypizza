@@ -158,7 +158,21 @@ body{
   #checkout-button{
   background-color:  lightslategray;
   }
-
+  .card-body p{
+    padding: 12px;
+    color: white;
+    background-color:blue ;
+    border-radius: 25px;
+  }
+  
+  .card-title{
+    border-radius: 25px;
+    background-color: blue;
+    padding-left: 18px;
+    padding-top: 18px;
+    color: white;
+  text-align: center;
+  }
 
 
 
