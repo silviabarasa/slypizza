@@ -158,4 +158,57 @@ body{
   #checkout-button{
   background-color:  lightslategray;
   }
+
+
+
+
+  @media screen and (max-width:1024px){
+    .title h1{
+      font-size: 30px;
+    }
+  
+    .logo{
+      display:none;
+    }
+  
+    .navi{
+      width: 60%;
+    }
+  
+    .card-body{
+      display:block;
+      justify-content: space-around;
+    }
+  
+    #classic img{
+      width: 150px;
+      height: 150px;
+    }
+  
+    #toppings img{
+      width: 150px;
+      height: 150px;
+    }
+  
+    #deluxe img{
+      width: 150px;
+      height: 150px;
+    }
+  
+    #classic h3{
+      font-size: 15px;
+      font-weight: bold;
+    }
+  
+    #deluxe h3{
+      font-size: 15px;
+      font-weight: bold;
+    }
+  
+    #toppings h3{
+      font-size: 15px;
+      font-weight: bold;
+    }
+  }
+  
   
