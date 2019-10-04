@@ -115,6 +115,7 @@ body{
     width: 100%;
     color: white;
     padding-top: 10px;
+    text-align: center;
   }
   #toppings{
     background-color:teal;
@@ -130,5 +131,7 @@ body{
     background-color:blue;
     border-radius: 25px;
     margin-top: 10px;
+    color: white;
+    text-align: center;
   }
   
