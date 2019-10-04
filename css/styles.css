@@ -69,6 +69,7 @@ nav{
     border-radius: 25px;
     margin-top: 10px;
     text-align:center;
+    color:white
   }
 body{
     background-image: url("../images/pizzaimage.jpeg");
@@ -81,3 +82,38 @@ body{
     display: block;
     margin-top: 10px;
   }
+  
+  #menu ul{
+    margin-top: 10px;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .btn{
+    background-color:blue;
+    color: white;
+  }
+  
+  .btn:hover{
+    background-color: blue;
+    color: white;
+  }
+  
+  #menu-title{
+    color: white;
+    background-color: blue;
+    border-radius: 25px;
+    text-align: center;
+  }
+  #classic{
+    background-color: #5F5757;
+    border-radius: 25px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    padding-top: 10px;
+  }
+  
