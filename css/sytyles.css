@@ -6,3 +6,35 @@ nav{
     background-color: rgb(119, 137, 153);
     border-radius: 15px;
   }
+  .title h1{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  .logo img{
+    height: 19vh;
+    border-radius: 50%;
+  }
+  .navi{
+    margin-top: 10px;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 50%;
+    align-items: center;
+  }
+  
+  .navi a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: inherit;
+  }
+  
+  .navi a:hover{
+    background-color:blue;
+    color: white;
+  }
+ 
