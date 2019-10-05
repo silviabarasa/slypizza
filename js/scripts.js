@@ -118,3 +118,26 @@ function Order(name, pizza, topping, crust, boxes, delivery) {
         }
       }
     }  
+    $(document).ready(function(){
+        $('form#new-order').submit(function(event){
+          event.preventDefault();
+      
+      
+          var inputtedName = $('input#name').val();
+          var selectedPizza = parseInt($('select#pizza').val());
+          var toppingSelected = parseInt($('select#topping').val());
+          var crustSelected = parseInt($('select#crust').val());
+          var noOfBoxes = parseInt($('input#boxes').val());
+          var selectedDeliveryOption = parseInt($('select#delivery').val());
+          var inputtedNumber = $('#mobile').val();
+      
+          var crusts = ['Thick', 'Thin'];
+          var toppings = ['Pepperoni', 'Mushroom', 'Sausage', 'Onions', 'Bacon', 'Chicken'];
+          var pizzas = ['Veg Tikka: SMALL', 'Veg Tikka: MEDIUM', 'Veg Tikka: LARGE', 'Chicken Tikka: SMALL', 'Chicken Tikka: MEDIUM', 'Chicken Tikka: LARGE', 'Peri Peri Chicken: SMALL', 'Peri Peri Chicken: MEDIUM', 'Peri Peri Chicken: LARGE', 'BBQ Steak: SMALL', 'BBQ Steak: MEDIUM', 'BBQ Steak: LARGE', 'Boerewors: SMALL', 'Boerewors: MEDIUM', 'Boerewors: LARGE', 'Hawaiian: SMALL', 'Hawaiian: MEDIUM', 'Hawaiian: LARGE' ];
+          var deliveryOptions = ['Collect', 'Deliver'];
+      
+          var pizzaPrices = [400, 600, 1000, 600, 800, 1200, 650, 850, 1250, 500, 700, 1100, 550, 750, 1150, 700, 900, 1300];
+          var toppingPrices = [0, 100, 200, 200, 50, 250, 300];
+          var crustPrices = [200, 0];
+        });
+    });
