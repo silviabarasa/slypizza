@@ -43,3 +43,32 @@ function Order(name, pizza, topping, crust, boxes, delivery) {
   Bill.prototype.total = function(){
     return this.subtotalGotten * this.orderedBoxes;
   }
+  const navSlide = () => {
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('.navi');
+    const navLinks = document.querySelectorAll('.navi li');
+    const moto = document.querySelector('#moto');
+    const history = document.querySelector('.history');
+    const aboutTitle = document.querySelector('.about-title');
+    const forms = document.querySelector('#forms');
+  
+  
+    burger.addEventListener('click',()=>{
+      nav.classList.toggle('navi-active');
+  
+      navLinks.forEach((navLink, index)=>{
+        if(navLink.style.animation){
+          navLink.style.animation=``;
+        }
+        else{
+            navLink.style.animation = `naviFade 0.5s ease forwards ${index / 7 + 1}s`;
+        }
+      });
+      burger.classList.toggle('toggle');
+  
+      moto.classList.toggle('moto-unseen');
+    });
+  }
+  
+  navSlide();
+  
