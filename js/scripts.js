@@ -20,3 +20,26 @@ function Order(name, pizza, topping, crust, boxes, delivery) {
   Price.prototype.subtotal = function(){
     return this.priceForSelectedPizza + this.priceForSelectedTopping + this.priceForSelectedCrust;
   }
+  function Bill(subtotal, boxes){
+    this.subtotalGotten = subtotal;
+    this.orderedBoxes = boxes;
+  }
+  
+  Bill.prototype.total = function(){
+    return this.subtotalGotten * this.orderedBoxes;
+  }
+  
+  
+  
+  
+  
+  
+  
+  function Bill(subtotal, boxes){
+    this.subtotalGotten = subtotal;
+    this.orderedBoxes = boxes;
+  }
+  
+  Bill.prototype.total = function(){
+    return this.subtotalGotten * this.orderedBoxes;
+  }
